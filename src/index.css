@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-200;
+}
+
+.code {
+  @apply inline-block bg-gray-100 p-1 font-mono;
+}
+
+.h1 {
+  @apply text-4xl mb-3;
+}
+
+.h2 {
+  @apply text-2xl mb-2;
+}
+
+textarea {
+  @apply p-2;
+}
